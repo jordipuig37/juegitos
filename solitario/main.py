@@ -43,15 +43,24 @@ def init_deck(truco):
                 deck.append(c)
     return deck
 
+
+
 def shuffle_deck(deck):
     return deck
 
-def start_main
+def start_game(deck):
+    cs1 = CardsStack(1, [])
+    cs2 = CardsStack(2, [])
+    cs3 = CardsStack(3, [])
+    
+
 
 def main():
     print("Want 8's and 9's?", end="")
     truco = input("0 = false, 1 = true: ")
     my_deck = shuffle_deck(init_deck(truco))
+
+    start_game(deck)
 
 
 main()
