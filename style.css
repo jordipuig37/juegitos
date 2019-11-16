@@ -1,0 +1,13 @@
+.content {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+.stacks {
+	display: flex;
+}
+
+.stack {
+	padding: 20px;
+}
